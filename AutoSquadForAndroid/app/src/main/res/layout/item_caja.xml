@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textJuego"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textViewCreador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creador" />
+
+    <TextView
+        android:id="@+id/textViewRequisitos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Requisitos" />
+
+    <TextView
+        android:id="@+id/textViewJugadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jugadores" />
+
+    <Button
+        android:id="@+id/buttonVer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver" />
+
+</LinearLayout>

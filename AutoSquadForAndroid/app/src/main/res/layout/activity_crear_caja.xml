@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blancoBase">
+
+    <Spinner
+        android:id="@+id/spinnerJuego"
+        android:layout_width="410dp"
+        android:layout_height="49dp"
+        android:background="@color/azulBase"
+        android:entries="@array/juegos"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextRequisitos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCrearCaja" />
+
+    <TextView
+        android:id="@+id/textViewCrearCaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:background="@color/rojoBase"
+        android:text="Crear Caja"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextRequisitos"
+        android:layout_width="233dp"
+        android:layout_height="60dp"
+        android:background="@color/azulBase"
+        android:ems="10"
+        android:hint="Requisitos"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumberJugadores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerJuego" />
+
+    <EditText
+        android:id="@+id/editTextNumberJugadores"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:background="@color/azulBase"
+        android:ems="10"
+        android:hint="Cantidad jugadores"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/switchPrivacidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextRequisitos" />
+
+    <Switch
+        android:id="@+id/switchPrivacidad"
+        android:layout_width="131dp"
+        android:layout_height="54dp"
+        android:background="@color/azulBase"
+        android:text="Público"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCrear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberJugadores" />
+
+    <Button
+        android:id="@+id/buttonCrear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchPrivacidad" />
+</androidx.constraintlayout.widget.ConstraintLayout>
