@@ -1,0 +1,51 @@
+CREATE DATABASE AutoSquad;
+USE AutoSquad;
+
+CREATE TABLE USUARIO (
+    id_usuario INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    correo VARCHAR(100) NOT NULL UNIQUE,
+    contra VARCHAR(100) NOT NULL,
+    modos TEXT,    -- lo que escriba el usuario sobre los modos que juega
+    rango VARCHAR(50)  -- lo que escriba el usuario sobre su rango
+);
+
+
+CREATE TABLE JUEGO (
+    id_juego INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL
+);
+
+
+CREATE TABLE USUARIO_JUEGA_JUEGO (
+    id_usuario INT,
+    id_juego INT,
+    modos TEXT,   -- los modos que este usuario juega en este juego
+    PRIMARY KEY (id_usuario, id_juego),
+    FOREIGN KEY (id_usuario) REFERENCES USUARIO(id_usuario),
+    FOREIGN KEY (id_juego) REFERENCES JUEGO(id_juego)
+);
+
+CREATE TABLE CAJA (
+    id_caja INT AUTO_INCREMENT PRIMARY KEY,
+    id_creador INT NOT NULL,      -- FK a USUARIO
+    id_juego INT NOT NULL,        -- FK a JUEGO
+    visibilidad BOOLEAN DEFAULT TRUE,
+    requisitos TEXT,
+    jugadores_buscados INT NOT NULL,
+    hora_creacion DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_creador) REFERENCES USUARIO(id_usuario),
+    FOREIGN KEY (id_juego) REFERENCES JUEGO(id_juego)
+);
+
+CREATE TABLE MENSAJE (
+    id_mensaje INT AUTO_INCREMENT PRIMARY KEY,
+    id_usuario INT NOT NULL,      -- FK a USUARIO
+    id_caja INT NOT NULL,         -- FK a CAJA
+    texto TEXT NOT NULL,
+    fecha_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_usuario) REFERENCES USUARIO(id_usuario),
+    FOREIGN KEY (id_caja) REFERENCES CAJA(id_caja)
+);
+
+

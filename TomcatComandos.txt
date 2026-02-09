@@ -1,0 +1,22 @@
+Encender Tomcat:
+cd C:\tomcat\apache-tomcat-10.1.50\bin
+startup.bat
+
+(o escribe "tom.bat")
+
+Apagar Tomcat:
+cd C:\tomcat\apache-tomcat-10.1.50\bin
+shutdown.bat
+
+(o escribe "toff.bat")
+
+
+- Compilar proyecto:
+mvn clean package
+
+- Cuando se genere "target\autosquad-backend.war" muévelo a "C:\tomcat\apache-tomcat-10.1.50\webapps"
+
+- Puedes acceder como root:
+http://localhost:8080/
+- O como usuario normal:
+http://localhost:8080/autosquad-backend/
