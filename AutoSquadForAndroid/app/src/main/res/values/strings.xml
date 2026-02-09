@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AutoSquadForAndroid</string>
+
+    <string-array name="juegos">
+        <item>Valorant</item>
+        <item>LoL</item>
+        <item>CS2</item>
+    </string-array>
+</resources>
