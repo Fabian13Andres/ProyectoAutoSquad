@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cajas: AutoSquad</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <!-- CSS integrado directamente -->
+    <style>
+        /* ===== Estilo general de la app ===== */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b91c1c; /* fondo rojo */
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start; /* no centrar verticalmente */
+            padding-top: 40px; /* separacion superior */
+        }
+
+        /* ===== Contenedor principal ===== */
+        .container {
+            background-color: #93c5fd; /* azul clarito */
+            padding: 30px 35px;
+            border-radius: 16px;
+            border: 2px solid #000000; /* borde negro */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            width: 500px; /* más ancho que antes */
+            margin: 0 auto;
+            color: #1e293b;
+        }
+
+        /* ===== Títulos ===== */
+        h1 {
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1e293b;
+        }
+
+        /* ===== Select y botón de filtro ===== */
+        .filtro-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        select {
+            flex: 1;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #000;
+            outline: none;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: white;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* ===== Lista de cajas ===== */
+        #lista div button {
+            margin-top: 8px;
+            width: 100%;
+            background-color: #2563eb;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+        }
+
+        #lista div button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* ===== Enlaces ===== */
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Cajas Disponibles</h1>
+
+        <!-- Filtro por juego -->
+        <div class="filtro-container">
+            <select id="filtro">
+                <option value="">Todos</option>
+                <option value="Valorant">Valorant</option>
+                <option value="LoL">LoL</option>
+                <option value="CS2">CS2</option>
+            </select>
+
+            <button onclick="cargarCajas()">
+                Buscar
+            </button>
+        </div>
+
+        <!-- Aquí se cargan dinámicamente las cajas -->
+        <div id="lista"></div>
+
+        <div style="margin-top: 20px;">
+            <a href="home.html">Volver</a>
+        </div>
+
+    </div>
+
+    <script>
+        // Función principal que obtiene las cajas del backend
+        async function cargarCajas() {
+
+            const juego = document.getElementById("filtro").value;
+
+            // Construimos la URL dependiendo si hay filtro activo
+            let url = "listarCajas";
+            if (juego !== "") {
+                url += "?juego=" + encodeURIComponent(juego);
+            }
+
+            try {
+
+                const response = await fetch(url, {
+                    credentials: "include" // necesario para mantener sesión
+                });
+
+                const data = await response.json();
+
+                const lista = document.getElementById("lista");
+                lista.innerHTML = ""; // limpiamos antes de volver a pintar
+
+                if (!data.success) {
+                    lista.innerHTML = "Error cargando cajas";
+                    return;
+                }
+
+                // Recorremos cada caja recibida del servidor
+                data.cajas.forEach(function (caja) {
+
+                    const div = document.createElement("div");
+
+                    // Estilos básicos en línea (rápido y funcional)
+                    div.style.border = "1px solid #000"; // borde negro
+                    div.style.margin = "10px 0";
+                    div.style.padding = "10px";
+                    div.style.borderRadius = "6px";
+                    div.style.backgroundColor = "#bfdbfe"; // un azul más claro dentro
+
+                    // Plantilla simple para mostrar datos
+                    div.innerHTML = `
+                        <strong>${caja.nombre_juego}</strong><br>
+                        Creador: ${caja.creador_nombre}<br>
+                        Requisitos: ${caja.requisitos}<br>
+                        Jugadores: ${caja.jugadores_buscados}<br>
+                        <button onclick="abrirChat(${caja.id_caja})">
+                            Entrar
+                        </button>
+                    `;
+
+                    lista.appendChild(div);
+                });
+
+            } catch (error) {
+                console.error("Error cargando cajas:", error);
+                document.getElementById("lista").innerHTML = "No se pudo conectar con el servidor";
+            }
+        }
+
+        // Redirige al chat de la caja seleccionada
+        function abrirChat(id) {
+            window.location.href = "chat.html?id_caja=" + id;
+        }
+
+        // Carga automática al entrar en la página
+        cargarCajas();
+    </script>
+
+</body>
+</html>

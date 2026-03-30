@@ -1,0 +1,456 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\crearcajaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\crearcajaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\crearcajaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\crearcajaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\chatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\perfilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\perfilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\registroform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\buscarcajasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\buscarcajasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|c:\\users\\fabian\\desktop\\proyectoautosquad\\autosquaddesktop\\autosquaddesktop\\forms\\buscarcajasform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\buscarcajasform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|c:\\users\\fabian\\desktop\\proyectoautosquad\\autosquaddesktop\\autosquaddesktop\\forms\\buscarcajasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\buscarcajasform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\buscarcajasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\buscarcajasform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\perfilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\perfilform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\models\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\models\\caja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\models\\sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\models\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|c:\\users\\fabian\\desktop\\proyectoautosquad\\autosquaddesktop\\autosquaddesktop\\forms\\crearcajaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\crearcajaform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|c:\\users\\fabian\\desktop\\proyectoautosquad\\autosquaddesktop\\autosquaddesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\crearcajaform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\crearcajaform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\autosquaddesktop\\forms\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F680654D-B78B-4800-8EF2-A8558BED45AC}|AutoSquadDesktop\\AutoSquadDesktop.csproj|solutionrelative:autosquaddesktop\\forms\\loginform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuscarCajasForm.resx",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.resx",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\BuscarCajasForm.resx",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.resx",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\BuscarCajasForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-30T19:34:59.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BuscarCajasForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.Designer.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\BuscarCajasForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.Designer.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\BuscarCajasForm.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T19:34:58.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CrearCajaForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.Designer.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\CrearCajaForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.Designer.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\CrearCajaForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T14:46:02.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PerfilForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:55:52.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegistroForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:40:39.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistroForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\RegistroForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\RegistroForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\RegistroForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:40:02.287Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PerfilForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\PerfilForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\PerfilForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\PerfilForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T13:14:38.348Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:43:42.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\ChatForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\ChatForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\ChatForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:42:33.156Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAwwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:38:59.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\HomeForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\HomeForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\HomeForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T03:38:49.661Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CrearCajaForm.resx",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.resx",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\CrearCajaForm.resx",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.resx",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\CrearCajaForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-30T03:33:57.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CrearCajaForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\CrearCajaForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.cs*",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\CrearCajaForm.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:13:50.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CrearCajaForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\CrearCajaForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\CrearCajaForm.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\CrearCajaForm.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T00:10:38.774Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BuscarCajasForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:50:19.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BuscarCajasForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\BuscarCajasForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\BuscarCajasForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\BuscarCajasForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:49:59.903Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Sesion.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Sesion.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Models\\Sesion.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Sesion.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Models\\Sesion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:27:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:18:55.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginForm.resx",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.resx",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\LoginForm.resx",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.resx",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\LoginForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-03-29T23:14:44.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.Designer.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\LoginForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.Designer.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\LoginForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T23:14:42.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Program.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Program.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Program.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:48:06.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Services\\ApiService.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Services\\ApiService.cs",
+              "ViewState": "AgIAANQAAAAAAAAAAAAgwOAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:47:55.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Mensaje.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Models\\Mensaje.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Mensaje.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Models\\Mensaje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:42:40.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Caja.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Caja.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Models\\Caja.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Caja.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Models\\Caja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:42:18.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Models\\Usuario.cs",
+              "RelativeToolTip": "AutoSquadDesktop\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:41:10.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "AutoSquadDesktop\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Fabian\\Desktop\\ProyectoAutoSquad\\AutoSquadDesktop\\AutoSquadDesktop\\Forms\\LoginForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "AutoSquadDesktop\\Forms\\LoginForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-29T22:36:46.473Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

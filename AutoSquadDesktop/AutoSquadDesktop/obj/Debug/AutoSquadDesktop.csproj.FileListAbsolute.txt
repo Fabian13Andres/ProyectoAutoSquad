@@ -1,0 +1,17 @@
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.csproj.AssemblyReference.cache
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.BuscarCajasForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.ChatForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.CrearCajaForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.HomeForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.LoginForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.PerfilForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Forms.RegistroForm.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.Properties.Resources.resources
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.csproj.GenerateResource.cache
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\bin\Debug\AutoSquadDesktop.exe.config
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\bin\Debug\AutoSquadDesktop.exe
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\bin\Debug\AutoSquadDesktop.pdb
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.exe
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.pdb
+C:\Users\Fabian\Desktop\ProyectoAutoSquad\AutoSquadDesktop\AutoSquadDesktop\obj\Debug\AutoSquadDesktop.exe.config

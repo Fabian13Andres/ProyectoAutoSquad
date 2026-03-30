@@ -1,59 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blancoBase">
-
-    <Button
-        android:id="@+id/buttonEnviarMensaje"
-        android:layout_width="53dp"
-        android:layout_height="51dp"
-        android:text=">"
-        app:layout_constraintBottom_toBottomOf="@+id/editTextTextEnviarMensaje"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextEnviarMensaje"
-        app:layout_constraintTop_toTopOf="@+id/editTextTextEnviarMensaje" />
-
-    <EditText
-        android:id="@+id/editTextTextEnviarMensaje"
-        android:layout_width="320dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="32dp"
-        android:background="@color/rojoBase"
-        android:ems="10"
-        android:hint="mensaje"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/buttonEnviarMensaje"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+    android:background="@color/rojoBase"
+    android:orientation="vertical"
+    android:padding="8dp">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerViewEnviarMensaje"
-        android:layout_width="0dp"
+        android:id="@+id/recyclerChat"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
         android:background="@color/azulBase"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEnviarMensaje"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewChat"
-        app:layout_constraintVertical_bias="0.0" />
+        android:clipToPadding="false"
+        android:overScrollMode="always"
+        android:padding="8dp"
+        android:scrollbars="vertical" />
 
-    <TextView
-        android:id="@+id/textViewChat"
-        android:layout_width="wrap_content"
-        android:layout_height="19dp"
-        android:layout_marginTop="16dp"
-        android:background="@color/rojoBase"
-        android:text="Chat"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/azulBase"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <EditText
+            android:id="@+id/editTextMensaje"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:hint="Escribe un mensaje"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/buttonEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/azulBotones"
+            android:elevation="4dp"
+            android:text="Enviar"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

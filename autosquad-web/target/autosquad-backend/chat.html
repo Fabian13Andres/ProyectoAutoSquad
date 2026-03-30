@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chat: AutoSquad</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <!-- CSS integrado -->
+    <style>
+        /* ===== Estilo general ===== */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b91c1c; /* rojo de fondo */
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start; /* no centrado vertical */
+            padding-top: 40px;
+        }
+
+        /* ===== Contenedor principal ===== */
+        .container {
+            background-color: #93c5fd; /* azul clarito */
+            padding: 30px 35px;
+            border-radius: 16px;
+            border: 2px solid #000; /* borde negro */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            width: 500px;
+            margin: 0 auto;
+            color: #1e293b;
+        }
+
+        /* ===== Título ===== */
+        h1 {
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1e293b;
+        }
+
+        /* ===== Contenedor de mensajes ===== */
+        #mensajes {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #000;
+            padding: 12px;
+            border-radius: 8px;
+            background-color: #bfdbfe; /* azul más claro dentro */
+        }
+
+        /* ===== Input de mensaje ===== */
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px solid #000;
+            outline: none;
+        }
+
+        input[type="text"]:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+        }
+
+        /* ===== Botón de enviar ===== */
+        button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(29, 78, 216, 0.4);
+        }
+
+        /* ===== Enlaces ===== */
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Chat</h1>
+
+        <!-- Contenedor donde se cargan los mensajes dinámicamente -->
+        <div id="mensajes"></div>
+
+        <!-- Zona de envío -->
+        <div style="margin-top: 15px;">
+            <input type="text" id="texto" placeholder="Escribe un mensaje" autocomplete="off">
+            <button onclick="enviarMensaje()">Enviar</button>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <a href="cajas.html">Volver</a>
+        </div>
+
+    </div>
+
+    <script>
+        // Obtenemos el id de la caja desde la URL
+        const params = new URLSearchParams(window.location.search);
+        const idCaja = params.get("id_caja");
+
+        if (!idCaja) window.location.href = "cajas.html";
+
+        async function cargarMensajes() {
+            try {
+                const response = await fetch("listarMensajes?id_caja=" + idCaja, { credentials: "include" });
+                const data = await response.json();
+                const div = document.getElementById("mensajes");
+                div.innerHTML = "";
+                if (!data.success) return;
+                data.mensajes.forEach(m => {
+                    div.innerHTML += `<p><strong>${m.nombre_usuario}:</strong> ${m.texto}</p>`;
+                });
+                div.scrollTop = div.scrollHeight;
+            } catch (error) { console.error("Error cargando mensajes:", error); }
+        }
+
+        async function enviarMensaje() {
+            const input = document.getElementById("texto");
+            const texto = input.value;
+            if (texto.trim() === "") return;
+            const formData = new URLSearchParams();
+            formData.append("id_caja", idCaja);
+            formData.append("texto", texto);
+
+            try {
+                const response = await fetch("enviarMensaje", {
+                    method: "POST",
+                    body: formData,
+                    credentials: "include",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" }
+                });
+                const result = await response.json();
+                if (result.success) {
+                    input.value = "";
+                    cargarMensajes();
+                } else {
+                    alert(result.error);
+                }
+            } catch (error) { console.error("Error enviando mensaje:", error); }
+        }
+
+        setInterval(cargarMensajes, 3000);
+        cargarMensajes();
+    </script>
+
+</body>
+</html>

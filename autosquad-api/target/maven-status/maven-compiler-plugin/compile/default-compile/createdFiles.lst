@@ -1,0 +1,8 @@
+com\autosquad\servlets\LoginServlet.class
+com\autosquad\servlets\CajaListServlet.class
+com\autosquad\servlets\MensajeListServlet.class
+com\autosquad\filters\CorsFilter.class
+com\autosquad\servlets\MensajeCreateServlet.class
+com\autosquad\servlets\RegisterServlet.class
+com\autosquad\servlets\CajaCreateServlet.class
+com\autosquad\db\Conexion.class

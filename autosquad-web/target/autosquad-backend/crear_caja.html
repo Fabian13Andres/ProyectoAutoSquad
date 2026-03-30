@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Caja: AutoSquad</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <!-- CSS integrado -->
+    <style>
+        /* ===== Estilo general ===== */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b91c1c; /* rojo de fondo */
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start; /* no centrado vertical */
+            padding-top: 40px;
+        }
+
+        /* ===== Contenedor principal ===== */
+        .container {
+            background-color: #93c5fd; /* azul clarito */
+            padding: 30px 35px;
+            border-radius: 16px;
+            border: 2px solid #000; /* borde negro */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            width: 500px;
+            margin: 0 auto;
+            color: #1e293b;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1e293b;
+        }
+
+        /* ===== Select e Inputs ===== */
+        select,
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px solid #000;
+            outline: none;
+        }
+
+        select:focus,
+        input:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+        }
+
+        /* ===== Botones ===== */
+        .acciones button {
+            margin-top: 10px;
+            width: 48%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #2563eb;
+            color: white;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .acciones button:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(29, 78, 216, 0.4);
+        }
+
+        .acciones button + button {
+            margin-left: 4%;
+        }
+
+        /* ===== Resultado ===== */
+        #resultado {
+            margin-top: 15px;
+            font-weight: 500;
+            color: #16a34a; /* verde moderno */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Crear Nueva Caja</h1>
+
+        <!-- Selección del juego -->
+        <div class="form-group">
+            <select id="juego">
+                <option value="1">Valorant</option>
+                <option value="2">LoL</option>
+                <option value="3">CS2</option>
+            </select>
+        </div>
+
+        <!-- Datos de la caja -->
+        <div class="form-group">
+            <input type="text" id="requisitos" placeholder="Requisitos" autocomplete="off">
+            <input type="number" id="jugadores" placeholder="Jugadores buscados" min="1">
+        </div>
+
+        <!-- Acciones -->
+        <div class="acciones">
+            <button onclick="crearCaja()">Crear</button>
+            <button onclick="volver()">Volver</button>
+        </div>
+
+        <!-- Aquí se muestra el resultado del backend -->
+        <p id="resultado"></p>
+
+    </div>
+
+    <script src="js/crear_caja.js"></script>
+
+</body>
+</html>

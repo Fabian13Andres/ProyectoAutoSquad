@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuario: AutoSquad</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #EF7C85;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 40px;
+        }
+
+        .container {
+            background-color: #93c5fd;
+            padding: 30px 35px;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+            width: 500px;
+            margin: 0 auto;
+            color: #1e293b;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1e293b;
+            text-decoration-line: underline;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        div {
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Perfil de Usuario</h1>
+
+        <p><b>Nombre:</b> <span id="nombre_otro">Cargando...</span></p>
+        <p><b>Correo:</b> <span id="correo_otro">Cargando...</span></p>
+
+        <br>
+        <a href="home.html">Volver</a>
+
+    </div>
+
+    <script>
+        // Usuario logueado
+        const usuarioIdSesion = localStorage.getItem("usuarioId");
+        const usuarioNombre = localStorage.getItem("usuarioNombre");
+        const usuarioCorreo = localStorage.getItem("usuarioCorreo") || "-";
+
+        if (!usuarioIdSesion || !usuarioNombre) {
+            window.location.href = "login.html";
+        }
+
+        document.getElementById("correo_otro").textContent = usuarioCorreo;
+
+        // ID del perfil a ver (opcional)
+        const params = new URLSearchParams(window.location.search);
+        const idUsuario = params.get("id_usuario");
+
+        // Si es tu propio perfil o no se pasa id_usuario
+        const esPropioPerfil = !idUsuario || idUsuario === usuarioIdSesion;
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const nombreSpan = document.getElementById("nombre_otro");
+            const correoSpan = document.getElementById("correo_otro");
+
+            if (esPropioPerfil) {
+                // Mostrar datos del propio usuario
+                nombreSpan.textContent = usuarioNombre;
+                correoSpan.textContent = usuarioCorreo;
+            } else {
+                // Aquí se podrían cargar otros usuarios desde API si existiera soporte
+                nombreSpan.textContent = "Usuario desconocido";
+                correoSpan.textContent = "-";
+            }
+        });
+    </script>
+
+</body>
+
+</html>

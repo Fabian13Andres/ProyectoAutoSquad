@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuario: AutoSquad</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #b91c1c;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            padding-top: 40px;
+        }
+        .container {
+            background-color: #93c5fd;
+            padding: 30px 35px;
+            border-radius: 16px;
+            border: 2px solid #000000;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            width: 500px;
+            margin: 0 auto;
+            color: #1e293b;
+        }
+        h1 {
+            margin-bottom: 25px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            color: #1e293b;
+        }
+        a {
+            color: #1d4ed8;
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Perfil de Usuario</h1>
+
+        <!-- Aquí se mostrará el nombre del usuario que visitamos -->
+        <p><b>Nombre:</b> <span id="nombre_otro"></span></p>
+        <p><b>Correo:</b> <span id="correo_otro"></span></p>
+
+        <br>
+        <a href="home.html">Volver</a>
+
+    </div>
+
+    <script>
+        // Obtenemos el id del usuario desde la URL
+        const params = new URLSearchParams(window.location.search);
+        const idUsuario = params.get("id_usuario");
+
+        if (!idUsuario) {
+            window.location.href = "home.html";
+        }
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            try {
+                // Llamamos a un servlet para obtener los datos del usuario
+                const response = await fetch("usuario?id_usuario=" + idUsuario, {
+                    method: "GET",
+                    credentials: "include"
+                });
+
+                if (!response.ok) {
+                    window.location.href = "home.html";
+                    return;
+                }
+
+                const data = await response.json();
+
+                if (!data || !data.nombre) {
+                    window.location.href = "home.html";
+                    return;
+                }
+
+                document.getElementById("nombre_otro").textContent = data.nombre;
+                document.getElementById("correo_otro").textContent = data.correo;
+
+            } catch (error) {
+                window.location.href = "home.html";
+            }
+        });
+    </script>
+
+</body>
+</html>
