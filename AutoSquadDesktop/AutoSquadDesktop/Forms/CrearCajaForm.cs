@@ -38,7 +38,7 @@ namespace AutoSquadDesktop.Forms
             // Obtenemos y limpiamos requisitos
             string requisitos = txtRequisitos.Text.Trim();
 
-            // 🔥 Reemplazar saltos de línea, tabs y múltiples espacios por un solo espacio
+        
             requisitos = Regex.Replace(requisitos, @"\s+", " ");
 
             // Validamos que no esté vacío tras limpieza
@@ -48,7 +48,6 @@ namespace AutoSquadDesktop.Forms
                 return;
             }
 
-            // ✅ Validamos caracteres permitidos (incluye tildes y ñ)
             if (!Regex.IsMatch(requisitos, @"^[a-zA-Z0-9 áéíóúÁÉÍÓÚñÑ]+$"))
             {
                 MessageBox.Show("Los requisitos solo pueden contener letras, números y espacios.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);

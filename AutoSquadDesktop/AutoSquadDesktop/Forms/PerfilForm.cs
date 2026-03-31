@@ -13,8 +13,8 @@ namespace AutoSquadDesktop.Forms
 
         private void PerfilForm_Load(object sender, EventArgs e)
         {
-            lblNombre.Text = Sesion.UsuarioNombre;
-            lblCorreo.Text = Sesion.UsuarioCorreo;
+            lblNombre.Text = "Nombre: " + Sesion.UsuarioNombre;
+            lblCorreo.Text = "Correo: " + Sesion.UsuarioCorreo;
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

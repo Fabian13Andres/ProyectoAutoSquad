@@ -73,10 +73,5 @@ namespace AutoSquadDesktop.Forms
                 lblResultado.Text = "Error: " + ex.Message;
             }
         }
-
-        private void btnVolver_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
     }
 }

@@ -132,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
-            this.ClientSize = new System.Drawing.Size(436, 248);
+            this.ClientSize = new System.Drawing.Size(436, 237);
             this.Controls.Add(this.picAutoSquad);
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblCorreo);

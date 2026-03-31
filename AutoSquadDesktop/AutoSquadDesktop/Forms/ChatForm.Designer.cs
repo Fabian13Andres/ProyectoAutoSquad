@@ -82,6 +82,7 @@
             // 
             this.timerMensajes.Enabled = true;
             this.timerMensajes.Interval = 3000;
+            this.timerMensajes.Tick += new System.EventHandler(this.timerMensajes_Tick);
             // 
             // ChatForm
             // 

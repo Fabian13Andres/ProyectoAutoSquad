@@ -83,6 +83,7 @@
             this.MinimizeBox = false;
             this.Name = "PerfilForm";
             this.Text = "Perfil";
+            this.Load += new System.EventHandler(this.PerfilForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
