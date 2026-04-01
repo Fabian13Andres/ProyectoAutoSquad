@@ -1,0 +1,7 @@
+Para crear un nuevo paquete ".war" para actualizar nuestros cambios en la API seguiremos estos pasos:
+
+- Vamos a MAVEN > Lifecyrcle > clean + compile + install
+- Se generará el .war "autosquad-api.war" en \ProyectoAutoSquad\autosquad-api\target\autosquad-api.war
+- Lo moveremos a la carpeta del tomcat: C:\tomcat\apache-tomcat-9.0.41\webapps
+
+y ya podremos encender nuestro servidor

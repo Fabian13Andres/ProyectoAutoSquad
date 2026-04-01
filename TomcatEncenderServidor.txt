@@ -1,0 +1,16 @@
+Encender Tomcat:
+
+- Ve al CMD y pon:
+cd /d C:\tomcat\apache-tomcat-9.0.41\bin 
+startup.bat
+
+- Alternativa: Windows + R y ejecuta "tom.bat" (o solo "tom") que es un script que lo escribe y ejecuta por ti
+
+
+Apagar Tomcat:
+
+- Ve al CMD y pon:
+cd C:\tomcat\apache-tomcat-10.1.50\bin
+shutdown.bat
+
+- Alternativa: pulsa Windows + R y ejecuta "tof.bat" (o solo "tof") que es un script que lo escribe y ejecuta por ti
