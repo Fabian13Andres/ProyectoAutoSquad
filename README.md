@@ -11,7 +11,7 @@ En este proyecto disponemos de **4 carpetas principales**, organizadas de la sig
 ## Documentación y Recursos
 
 Además del código fuente, el proyecto incluye:
-- Un documento PDF con la **documentación técnica**.
+- Un documento PDF con la **documentación técnica** en español y otro idéntico en inglés.
 - Imágenes del **logo de la aplicación**.
 - Un archivo `.graphml` (compatible con yEd) que representa un **esquema del objetivo y estructura futura de la app**.
 
